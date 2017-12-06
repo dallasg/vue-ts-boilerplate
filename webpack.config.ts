@@ -11,7 +11,7 @@ const config: webpack.Configuration = {
     module: {
         rules: [
             { test: /\.vue$/, loader: 'vue-loader' },
-            { test: /\.tsx?$/, loader: 'awesome-typescript-loader', options: { appendTsSuffixTo: [/\.vue$/] } },
+            { test: /\.tsx?$/, loader: 'ts-loader', options: { appendTsSuffixTo: [/\.vue$/] } },
             { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' }
         ]
     },

@@ -1,28 +1,22 @@
 {
-  "name": "proj",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^8.0.55",
-    "@types/webpack": "^3.8.1",
-    "awesome-typescript-loader": "^3.4.1",
-    "css-loader": "^0.28.7",
-    "source-map-loader": "^0.2.3",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.6.2",
-    "vue-loader": "^13.5.0",
-    "vue-template-compiler": "^2.5.9",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.5"
-  },
-  "dependencies": {
-    "vue": "^2.5.9"
-  }
+    "name": "vue-ts-boilerplate",
+    "version": "1.0.0",
+    "author": "Dallas Gaddis",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^8.0.55",
+        "@types/webpack": "^3.8.1",
+        "css-loader": "^0.28.7",
+        "source-map-loader": "^0.2.3",
+        "ts-loader": "^3.2.0",
+        "ts-node": "^3.3.0",
+        "typescript": "^2.6.2",
+        "vue-loader": "^13.5.0",
+        "vue-template-compiler": "^2.5.9",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.9.5"
+    },
+    "dependencies": {
+        "vue": "^2.5.9"
+    }
 }
